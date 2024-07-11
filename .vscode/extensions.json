@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "xaver.clang-format",
+    "ms-vscode.cpptools",
+    "formulahendry.code-runner",
+    "naumovs.color-highlight",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint"
+  ]
+}
