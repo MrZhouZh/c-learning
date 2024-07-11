@@ -15,6 +15,14 @@ int main() {
   printf("Enter the number of students: ");
   scanf("%d", &n);
 
+  if (n > MAX_STUDENTS) {
+    printf("Error: Number of students exceeds the maxium limit of %d\n", MAX_STUDENTS);
+    return 1;
+  } else if (n <= 0) {
+    printf("Error: Number of students must be greater than 0.\n");
+    return 1;
+  }
+
   for (i = 0; i < n; i++)
   {
     printf("Enter the name of student %d:\n", (i + 1));
